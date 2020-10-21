@@ -1,0 +1,28 @@
+.Header {
+    background-color: lightskyblue;
+    /* height: 60px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:20px;
+}
+.formSearch{
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 20px ;
+}
+.inputSearch{
+    /* width: 80%; */
+    height: 20px;
+}
+.submitSearch{
+    /* width: 40px; */
+
+}
+.maintitle{
+    text-align: center;
+}
